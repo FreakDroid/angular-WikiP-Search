@@ -1,0 +1,38 @@
+/* app css stylesheet */
+html, body, .main {
+  background-color: #092B40;
+  padding: 0 !important
+}
+
+input {
+  border-radius: 10px;
+  background-color: transparent;
+  border: orange solid;
+  color: white !important;
+}
+
+.anchorWhite {
+  color: white;
+}
+
+ul {
+  width: 80%;
+  margin: auto;
+  padding: 0 !important;
+
+  }
+
+li h1 {
+        font-size: 18px;
+}
+
+ul p {
+        font-size: 14px;
+}
+
+li {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 30px 5px 30px;
+    background-color: white;
+  }

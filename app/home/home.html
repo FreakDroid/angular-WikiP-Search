@@ -1,0 +1,22 @@
+<div class="row main" >
+  <div class="col-12">
+    <div class="text-center">
+       <h1 class="anchorWhite">Coloque su topico a Buscar en Wikipedia</h1>
+       <br>
+       <form class="" ng-submit="vm.searchMe()">
+         <input type="text" name="name" ng-model='vm.fieldToSearch'>
+       </form>
+    </div>
+       <br>
+       <br>
+       <br>
+       <ul>
+         <a ng-href='{{result.page}}' target='_blank' ng-repeat='result in vm.results'>
+           <li>
+             <h1>{{result.title}}</h1>
+             <p>{{result.body}}</p>
+           </li>
+         </a>
+       </ul>
+  </div>
+</div>
