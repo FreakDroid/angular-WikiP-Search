@@ -43,7 +43,7 @@ Detras `bower install` sera llamado y ejecutado.  Veras que hay 2 carpetas nueva
 * `app/bower_components` - Contiene los archivos necesarios para Angularjs y otros como bootstrap
 
 
-### Run the Application
+### Ejecutar el App
 
 Para arrancar el server tan solo usar:
 
@@ -51,7 +51,7 @@ Para arrancar el server tan solo usar:
 npm start
 ```
 
-Now browse to the app at `http://localhost:8000/app/index.html`.
+ahora browse la App bajo `http://localhost:8000/app/index.html`.
 
 [git]: http://git-scm.com/
 [bower]: http://bower.io
